@@ -23,8 +23,6 @@ public:
     //method to calculate attack
     double attacks(double attackRollScore, double defenseRollScore);
     
-    Barbarian(double strength, int aquiles):Creature(strength, aquiles)
-    {
-    }
+    Barbarian(double strength, int aquiles):Creature(strength, aquiles) {}
 };
 #endif
