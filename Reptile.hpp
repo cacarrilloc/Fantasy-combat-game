@@ -20,8 +20,6 @@ public:
     
     double attacks(double attackRollScore, double defenseRollScore);
     
-    Reptile(double strength, int aquiles):Creature(strength, aquiles)
-    {
-    }
+    Reptile(double strength, int aquiles):Creature(strength, aquiles) {}
 };
 #endif
