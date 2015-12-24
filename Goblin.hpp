@@ -20,8 +20,6 @@ public:
     
     double attacks (double attackRollScore, double defenseRollScore);
     
-    Goblin(double strength, int aquiles):Creature(strength, aquiles)
-    {
-    }
+    Goblin(double strength, int aquiles):Creature(strength, aquiles) {}
 };
 #endif
