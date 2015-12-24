@@ -20,8 +20,6 @@ public:
     
     double attacks (double attackRollScore, double defenseRollScore);
     
-    Shadow(double strength, int aquiles):Creature(strength, aquiles)
-    {
-    }
+    Shadow(double strength, int aquiles):Creature(strength, aquiles) {}
 };
 #endif
